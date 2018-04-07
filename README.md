@@ -49,7 +49,7 @@ import tableTree from 'tableTree';
             menuId:100
          }
     ]
-    tableTree(null, this, {
+    tableTree(null, this, { // this指向当前环境的vue
 		        type: 'arr', // 数据类型,平级,非父子嵌套关系
 				parentId: 'parentId',//父级id
 				menuId: 'menuId'//自身id
@@ -74,7 +74,7 @@ import tableTree from 'tableTree';
          },
 
     ]
-    tableTree(null, this, {
+    tableTree(null, this, { // this指向当前环境的vue
 		        type: 'list', // 数据类型,父子嵌套关系
                 parentId: 'reid',
                 menuId: 'id'

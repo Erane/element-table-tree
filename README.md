@@ -35,7 +35,7 @@ import tableTree from 'tableTree';
 
 
      // 数据类型一
-    let list = [
+    let lists = [
         {
             parentId:0,
             menuId:1
@@ -57,7 +57,7 @@ import tableTree from 'tableTree';
 
 
      // 数据类型二
-    let list = [
+    let lists = [
         {
             parentId:0,
             menuId:1,
